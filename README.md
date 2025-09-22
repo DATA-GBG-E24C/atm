@@ -1,6 +1,6 @@
 # ATM - Banking System
 
-ATM is a banking and account management system built with IntelliJ IDEA 2024.3.5 (Ultimate Edition), Java SDK 21, and Spring Boot.  
+ATM is a banking and account management system built with IntelliJ IDEA 2025.2 (Ultimate Edition), Java SDK 21, and Spring Boot.  
 It provides user role separation (Admin/Customer), supports accounts and transactions, and organizes banking operations.  
 The frontend is built with HTML/CSS/Thymeleaf, and data is stored in a MySQL database.  
 
@@ -63,7 +63,7 @@ For a full guide, see [CONTRIBUTING.md](./CONTRIBUTING.md)
 ---
 
 ## 📁 Project Structure (Maven)
-
+🚧 This section is UNDER CONSTRUCTION 🚧
 ```
 atm/
 ├── src/
