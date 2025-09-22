@@ -1,12 +1,15 @@
 package account;
 
+import customer.ICustomer;
+import card.ICard;
+
 public class Account implements IAccount {
 
     double balance;
     ICustomer owner;
     ICard card;
 
-    public Account (Customer owner, double balance) {
+    public Account (ICustomer owner, double balance) {
         this.owner = owner;
         this.balance = balance;
     }
@@ -19,8 +22,9 @@ public class Account implements IAccount {
     }
 
     @Override
-    public void getBalance() {
+    public double getBalance() {
         System.out.println("Your balance is: " + balance);
+        return balance;
     }
 
     @Override

@@ -1,8 +1,10 @@
 package account;
 
+import customer.ICustomer;
+
 public interface IAccount {
-    Customer getOwner();
-    void getBalance();
+    ICustomer getOwner();
+    double getBalance();
     void withdraw(double amount);
     void deposit(double amount);
 }
