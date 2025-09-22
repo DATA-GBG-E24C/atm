@@ -43,7 +43,7 @@ git commit -m "Add: balance inquiry feature"
 Push your branch and open a Pull Request:
 git push origin feature/your-feature-name
 
-##🧪 Testing
+## 🧪 Testing
 We use H2 In-Memory Database for testing. All unit and integration tests should pass before submitting a pull request.
 
 Run all tests:
