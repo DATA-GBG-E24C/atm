@@ -25,7 +25,6 @@ The frontend is built with HTML/CSS/Thymeleaf, and data is stored in a MySQL dat
 - **Database (Production):** MySQL  
 - **Database (Testing):** H2 In-Memory Database  
 - **Build Tool:** Maven  
-- **Code Quality:** Qodana  
 - **Modeling Tool:** Visual Paradigm  
 
 ---
@@ -65,15 +64,48 @@ For a full guide, see [CONTRIBUTING.md](./CONTRIBUTING.md)
 ## 📁 Project Structure (Maven)
 🚧 This section is UNDER CONSTRUCTION 🚧
 ```
+## 📁 Project Structure (Maven) 🚧
+
+```plaintext
 atm/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/atm/          # Backend logic
-│   │   └── resources/            # Application resources
+│   │   │   └── com/atm/
+│   │   │       ├── account/
+│   │   │       │   ├── IAccount.java
+│   │   │       │   └── Account.java
+│   │   │       │
+│   │   │       ├── card/
+│   │   │       │   ├── ICard.java
+│   │   │       │   ├── Card.java
+│   │   │       │   ├── ICardReader.java
+│   │   │       │   └── CardReader.java
+│   │   │       │
+│   │   │       ├── customer/
+│   │   │       │   ├── ICustomer.java
+│   │   │       │   └── Customer.java
+│   │   │       │
+│   │   │       ├── security/
+│   │   │       │   ├── ISecuritySystem.java
+│   │   │       │   └── SecuritySystem.java
+│   │   │       │
+│   │   │       ├── transaction/
+│   │   │       │   ├── ITransactionProcessor.java
+│   │   │       │   └── TransactionProcessor.java
+│   │   │       │
+│   │   │       ├── dispenser/
+│   │   │       │   ├── ICashDispenser.java
+│   │   │       │   └── CashDispenser.java
+│   │   │       │
+│   │   │       └── ATM.java                    # Main application entry point
+│   │   │
+│   │   └── resources/                          # Application resources
+│   │
 │   └── test/
 │       └── java/
-│           └── com/atmtest/      # Unit and integration tests
-├── diagrams/                     # System diagrams
-├── .qodana.yaml                  # Qodana configuration
+│           └── com/atmtest/                    # Unit and integration tests
+│
+├── diagrams/                                   # System diagrams (optional)
 └── pom.xml
+
