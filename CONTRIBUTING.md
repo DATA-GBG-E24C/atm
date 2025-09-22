@@ -50,7 +50,7 @@ Run all tests:
 mvn clean test
 
 
-##✅ Guidelines
+## ✅ Guidelines
 Follow existing code style and structure
 Use meaningful names and write clean, readable code
 Ensure all security standards are followed (e.g., passwords & PINs use bcrypt) - See the Security section
@@ -58,7 +58,7 @@ Avoid hardcoding credentials or sensitive data
 Document your code where necessary
 
 
-##🔐 Security
+## 🔐 Security
 For future releases:
 Do not log or expose password/PIN hashes or tokens
 All sensitive data must be hashed using bcrypt
