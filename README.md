@@ -12,7 +12,7 @@ The frontend is built with HTML/CSS/Thymeleaf, and data is stored in a MySQL dat
 - Deposit and withdraw money
 - Transfer funds between accounts
 - Track account balance and transaction history
-- Role-based access (Admin, Customer)
+- Role-based access
 - Secure user authentication
 - Responsive HTML/CSS UI
 
