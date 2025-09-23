@@ -1,8 +1,7 @@
 # ATM - Banking System
 
 ATM is a banking and account management system built with IntelliJ IDEA 2025.2 (Ultimate Edition), Java SDK 21, and Spring Boot.  
-It provides user role separation (Admin/customer), supports accounts and transactions, and organizes banking operations.  
-The frontend is built with HTML/CSS/Thymeleaf, and data is stored in a MySQL database.  
+It provides user role separation (Admin/customer), supports accounts and transactions, and organizes banking operations.
 
 ---
 
@@ -14,7 +13,6 @@ The frontend is built with HTML/CSS/Thymeleaf, and data is stored in a MySQL dat
 - Track account balance and transaction history
 - Role-based access
 - Secure user authentication
-- Responsive HTML/CSS UI
 
 ---
 
@@ -22,10 +20,8 @@ The frontend is built with HTML/CSS/Thymeleaf, and data is stored in a MySQL dat
 
 - **Frontend:** HTML / CSS / Thymeleaf  
 - **Backend:** Java 21, Spring Boot, JDBC  
-- **Database (Production):** MySQL  
 - **Database (Testing):** H2 In-Memory Database  
 - **Build Tool:** Maven  
-- **Modeling Tool:** Visual Paradigm  
 
 ---
 
