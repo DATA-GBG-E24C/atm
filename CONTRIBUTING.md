@@ -63,7 +63,7 @@ Do not log or expose password/PIN hashes or tokens
 All sensitive data must be hashed using bcrypt
 
 
-##💡 Need Help?
+## 💡 Need Help?
 
 If you're stuck or have questions, feel free to open an issue or start a discussion.
 
