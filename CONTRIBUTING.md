@@ -1,6 +1,6 @@
 # 🤝 Contributing to ATM  
 
-Thank you for considering contributing to **ATM** – a banking and account management system built with Spring Boot, HTML/CSS, and MySQL on Azure.  
+Thank you for considering contributing to **ATM** – a banking and account management system built with Spring Boot.  
 
 We welcome all kinds of contributions: new features, bug fixes, documentation improvements, and ideas!  
 
@@ -13,7 +13,6 @@ Make sure you have:
 - Java 21 (SDK)  
 - Maven  
 - IntelliJ IDEA (or similar IDE)  
-- Access to Azure Database for MySQL (or use H2 for local testing)  
 - Git & GitHub  
 
 ---
